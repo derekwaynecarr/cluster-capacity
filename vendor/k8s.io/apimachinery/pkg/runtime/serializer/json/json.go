@@ -18,9 +18,7 @@ package json
 
 import (
 	"encoding/json"
-	"fmt"
 	"io"
-	"reflect"
 
 	"github.com/ghodss/yaml"
 	"github.com/ugorji/go/codec"
@@ -158,7 +156,7 @@ func (s *Serializer) Decode(originalData []byte, gvk *schema.GroupVersionKind, i
 		return nil, actual, err
 	}
 
-	fmt.Printf("ATTEMPTING TO DECODE INTO %v\n", reflect.TypeOf(obj))
+	// fmt.Printf("ATTEMPTING TO DECODE INTO %v\n", reflect.TypeOf(obj))
 	if err := codec.NewDecoderBytes(data, new(codec.JsonHandle)).Decode(obj); err != nil {
 		return nil, actual, err
 	}
