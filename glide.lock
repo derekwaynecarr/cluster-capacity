@@ -1,5 +1,5 @@
-hash: 3006eba93630a29186482f9eb56e0e1bd4c5cad1479b7b3272ddafb403ada789
-updated: 2017-07-05T14:58:57.456203954-04:00
+hash: 1020aac0d442b0a0b7f750c2b2e4d3bd997933cf46f16a4f656016ceb8dfb8ec
+updated: 2017-07-06T15:18:36.677717929-04:00
 imports:
 - name: github.com/aws/aws-sdk-go
   version: 63ce630574a5ec05ecd8e8de5cea16332a5a684d
@@ -220,7 +220,7 @@ imports:
 - name: gopkg.in/yaml.v2
   version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
 - name: k8s.io/api
-  version: 4fe9229aaa9d704f8a2a21cdcd50de2bbb6e1b57
+  version: 713a36744d9dbcfcf44b0e88c8697b5c3e6c0f31
   subpackages:
   - admissionregistration/v1alpha1
   - apps/v1beta1
@@ -235,7 +235,6 @@ imports:
   - certificates/v1beta1
   - core/v1
   - extensions/v1beta1
-  - imagepolicy/v1alpha1
   - networking/v1
   - policy/v1beta1
   - rbac/v1alpha1
@@ -244,7 +243,7 @@ imports:
   - storage/v1
   - storage/v1beta1
 - name: k8s.io/apimachinery
-  version: 4d3c9f54ada2537bd5041d08f886f18419c39fee
+  version: 8a1a257c3a3503c77f25e5802e96e89a2a11ad61
   subpackages:
   - pkg/api/equality
   - pkg/api/errors
@@ -297,7 +296,7 @@ imports:
   - third_party/forked/golang/json
   - third_party/forked/golang/reflect
 - name: k8s.io/apiserver
-  version: dd487397362dc1c0f8728ef0ebb7320dc6872f35
+  version: e30df5e70ef9127ea69d607207c894251025e55b
   subpackages:
   - pkg/admission
   - pkg/apis/apiserver
@@ -311,7 +310,7 @@ imports:
   - pkg/util/feature
   - pkg/util/trace
 - name: k8s.io/client-go
-  version: 59eef07b24b219d287624b7f52ea339ac3e145fc
+  version: bd8206e3cad51f417532db8eb0f00e6411f68c77
   subpackages:
   - discovery
   - discovery/fake
